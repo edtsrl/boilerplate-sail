@@ -1,0 +1,16 @@
+includes:
+    - ./vendor/larastan/larastan/extension.neon
+parameters:
+    paths:
+        - app
+        - database
+        - routes
+    excludePaths:
+        - ./vendor/**
+    level: 5
+    treatPhpDocTypesAsCertain: false
+    ignoreErrors:
+        - '#Call to an undefined method [a-zA-Z0-9\\_::]#'
+        - '#Call to undefined function [a-zA-Z0-9\\_]+#'
+        - '#Access to an undefined property [a-zA-Z0-9\\_]+#'
+        - '#Access to an undefined constant [a-zA-Z0-9\\_]+#'

@@ -1,0 +1,59 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "jsx": "preserve",
+        "jsxImportSource": "vue",
+        "lib": [
+            "ESNext",
+            "dom"
+        ],
+        "baseUrl": ".",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "paths": {
+            "@/*": [
+                "./resources/js/*"
+            ]
+        },
+        "resolveJsonModule": true,
+        "typeRoots": [
+            "./node_modules/@types/",
+            "./resources/js/src/types/"
+        ],
+        "types": [
+            "node",
+            "webpack-env"
+        ],
+        "allowJs": true,
+        "checkJs": false,
+        "strict": true,
+        "alwaysStrict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "declaration": false,
+        "importHelpers": true,
+        "noEmitHelpers": false,
+        "noEmitOnError": false,
+        "outDir": "public/",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "verbatimModuleSyntax": true,
+        "skipLibCheck": true
+    },
+    "files": [
+        "resources/js/src/types/global.d.ts"
+    ],
+    "include": [
+        "resources/js/src/**/*",
+        "resources/js/src/**/*.ts",
+        "resources/js/src/**/*.vue"
+    ],
+    "exclude": [
+        "node_modules",
+        "public"
+    ]
+}

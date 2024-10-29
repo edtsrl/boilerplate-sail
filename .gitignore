@@ -1,0 +1,16 @@
+*.cache
+.DS_STORE
+.env
+.env.*
+.phpactor.json
+.phpstorm.meta.php
+/.idea
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+_ide_helper.php
+_ide_helper_*.php

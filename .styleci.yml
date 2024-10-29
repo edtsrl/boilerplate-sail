@@ -1,0 +1,9 @@
+php:
+  preset: laravel
+  disabled:
+    - single_class_element_per_statement
+  finder:
+    not-name:
+      - index.php
+js: true
+css: true
